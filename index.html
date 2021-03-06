@@ -5,7 +5,7 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width" />
   <title>Tests</title>
-  <link rel="stylesheet" href="https://code.jquery.com/qunit/qunit-2.9.1.css" />
+  <link href="styles/style.css" rel="stylesheet" href="https://code.jquery.com/qunit/qunit-2.9.1.css" />
 </head>
 
 <body>
@@ -20,17 +20,19 @@
         Noun: <input id="noun2-input"><br>
         Adjective: <input id="adjective1-input"><br>
         Verb: <input id="verb1-input" ><br>
-        Adjective: <input id="adjective2-input"><br>
-        Verb: <input id="verb2-input"><br>   
+        Verb-ing: <input id="verb2-input"><br>   
     </div>
     <br><br>
-    <button id="buttonId">Submit</button>
+    <div class = "button">
+      <button id="buttonId">Submit</button>
+    </div>
     <br><br>
+    <p></p>
     <div class ="output">
-        The <span id="noun1-output">_____</span> went straight on like a <span id="noun2-output">_____</span> for some way, 
-        and then dipped <span id="adjective1-output">____</span> down, so suddenly that Alice had not 
-        a moment to think about <span id="verb1-output">______</span> herself before she found herself 
-        <span id="verb2-output">_____</span> down a very deep well.
+        The&nbsp;<span id="noun1-output">_____</span>&nbsp;went straight on like a&nbsp;<span id="noun2-output">_____</span>&nbsp;for some way, 
+        and then dipped&nbsp;<span id="adjective1-output">____</span>&nbsp;down,
+        <p>so suddenly that Alice had not a moment to think about&nbsp;<span id="verb1-output">______</span>&nbsp;herself before she
+        <p>found herself&nbsp;<span id="verb2-output">_____</span>&nbsp;down a very deep well.
     </div>
 
   </main>
